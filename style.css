@@ -16,15 +16,16 @@
 }
 
 body {
+    background-image: url('images/background6.png');
+    background-repeat: no-repeat;
+    background-position: right 0;
     background-color: #132555;
+    background-size: auto;
     font-family: 'Prata', sans-serif;
-    overflow-y: hidden;
 }
 
 .main {
-    background-image: url('images/background6.png');
-    background-position: center;
-    height: 100vh;
+    margin-top: 40px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -103,7 +104,14 @@ body {
 }
 
 .contact-container-link {
-    padding: 10px;
-    margin-top: 5px;
-    font-size: 40px;
+    background-color: #ffdf28;
+    width: 60px;
+    height: 60px;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container-icon {
+    width: 100px;
 }
